@@ -17,7 +17,8 @@ const LandingPage = () => {
           visual search speed.
         </p>
       </section>
-      <button className="start-btn" onClick={() => navigate('/setup')}>
+      {/* FIX: Navigate to '/game' instead of '/setup' */}
+      <button className="start-btn" onClick={() => navigate('/game')}>
         Start Training
       </button>
     </div>
