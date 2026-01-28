@@ -2,7 +2,7 @@
 
 A modern, responsive web application for cognitive enhancement and speed reading training using Schulte Tables. Originally developed by German psychiatrist Walter Schulte, these tables are scientifically-proven tools to improve focus, peripheral vision, and visual processing speed.
 
-**🚀 Live Demo:** [https://schultee.netlify.app/game](https://schultee.netlify.app/game)
+**🚀 Live Demo:** [https://schultee.netlify.app/]((https://schultee.netlify.app/))
 
 ---
 
