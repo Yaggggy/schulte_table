@@ -1,35 +1,16 @@
 :root {
-  --primary-color: #2c3e50;
-  --accent-color: #3498db;
-  --success-color: #27ae60;
-  --bg-color: #f4f7f6;
-  --text-color: #333;
+  --primary-color: #1a1f3a;
+  --primary-light: #2d3561;
+  --accent-color: #3b82f6;
+  --accent-hover: #2563eb;
+  --success-color: #10b981;
+  --bg-color: #f8fafc;
   --card-bg: #ffffff;
+  --text-color: #333;
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+.app-container {
+  width: 100%;
+  min-height: 100vh;
   background-color: var(--bg-color);
-  color: var(--text-color);
-  line-height: 1.6;
-  height: 100vh;
-  width: 100vw;
-  overflow: hidden; /* Prevents scrolling during game */
-}
-
-button {
-  cursor: pointer;
-  border: none;
-  font-family: inherit;
-  transition: transform 0.1s ease, background-color 0.2s;
-}
-
-button:active {
-  transform: scale(0.98);
 }
